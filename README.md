@@ -2,7 +2,7 @@
 
 ## Overview
 
-SentimentStream is a big data project that enables real-time sentiment analysis and visualization of emoji reactions during live events, such as sports matches. It processes billions of reactions with low latency using a scalable event-driven architecture powered by Apache Kafka and Apache Spark Streaming. The system efficiently aggregates and compresses reactions for streamlined real-time visualization.
+EmoStream is a big data project that enables real-time sentiment analysis and visualization of emoji reactions during live events, such as sports matches. It processes billions of reactions with low latency using a scalable event-driven architecture powered by Apache Kafka and Apache Spark Streaming. The system efficiently aggregates and compresses reactions for streamlined real-time visualization.
 
 ## Key Features
 
