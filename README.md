@@ -25,7 +25,7 @@ SentimentStream is a big data project that enables real-time sentiment analysis 
 3. **Spark Streaming Pipeline**: Consumes Kafka topics, aggregates sentiment in 2-second micro-batches.
 4. **Data Compression & Storage**: Compressed aggregated data is stored in HDFS for future analysis.
 
-## Setup & Installation
+## Setup
 
 ### Prerequisites
 
