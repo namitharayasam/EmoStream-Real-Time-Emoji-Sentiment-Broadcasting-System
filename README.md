@@ -10,12 +10,12 @@ SentimentStream is a big data project that enables real-time sentiment analysis 
 - **Real-Time Sentiment Aggregation**: Utilizes Apache Spark Streaming to process emoji reactions in 2-second micro-batches, ensuring near-instant updates.
 - **High-Efficiency Data Compression**: Achieves a 1000:1 compression ratio, reducing storage and bandwidth overhead.
 - **Event-Driven Architecture**: Leverages Kafka topics for efficient pub-sub messaging, ensuring seamless ingestion and processing.
-- **Big Data Pipeline**: Integrates with distributed storage (HDFS/S3) for historical analysis and machine learning-based insights.
+- **Big Data Pipeline**: Integrates with distributed storage (HDFS) for historical analysis and machine learning-based insights.
 
 ## Tech Stack
 
 - **Data Ingestion & Streaming**: Apache Kafka, Spark Streaming
-- **Processing & Aggregation**: Apache Spark (PySpark/Scala), Kafka Streams
+- **Processing & Aggregation**: Apache Spark (PySpark), Kafka Streams
 - **Storage**: HDFS
 
 ## System Architecture
@@ -37,8 +37,8 @@ SentimentStream is a big data project that enables real-time sentiment analysis 
 ## Project Demo Setup
 
 - The demo environment consists of **2 clusters with 4 nodes each**.
-- **Username assignment** is dynamic, and each client is assigned a username upon arrival.
-- If the number of clients **exceeds the available capacity**, **load balancing** is managed by placing the client in a **waiting list** until another user leaves the system.
+- Username assignment is dynamic, and each client is assigned a username upon arrival.
+- If the number of clients exceeds the available capacity, load balancing is managed by placing the client in a **waiting list** until another user leaves the system.
 
 ## Future Enhancements
 
