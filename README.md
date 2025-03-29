@@ -1,4 +1,4 @@
-# SentimentStream: Real-Time Emoji Sentiment Broadcasting System
+# EmoStream: Real-Time Emoji Sentiment Broadcasting System
 
 ## Overview
 
